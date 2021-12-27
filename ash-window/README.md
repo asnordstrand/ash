@@ -14,7 +14,7 @@ Interoperability between [`ash`](https://github.com/MaikKlein/ash) and [`raw-win
 ## Usage
 
 ```toml
-ash-window = "0.7"
+ash-window = "0.9"
 ```
 
 The library exposes two functions:
@@ -33,8 +33,8 @@ The library exposes two functions:
 
 ## Versions
 ```toml
-ash = "0.33"
-raw-window-handle = "0.3"
+ash = "0.35"
+raw-window-handle = "0.3" # Since `raw-window-handle 0.3.4` a `RawWindowHandle` from 0.4.1 can also be passed
 ```
 
 ## Support
